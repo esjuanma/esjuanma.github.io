@@ -1,0 +1,152 @@
+/* Global styles
+------------------------------ */
+body {
+	margin: 0;
+	background: #F9DB79;
+	font-family: Arial;
+	font-size: 16px;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.top-border {
+	border-top: 3px solid #A0138E;
+	background: #FCEDBB;
+	height: 60px;
+}
+
+header {
+	max-width: 1366px;
+	margin: 0 auto;
+}
+
+header, footer {
+	padding: 0 20px;
+}
+
+header h1 {
+	font-family: Satisfy;
+	text-transform: none;
+}
+
+header ul {
+	padding: 10px 0;
+}
+
+header li {
+	display: inline-block;
+	margin-right: 25px;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 42px;
+	font-family: "Roboto Condensed";
+}
+
+h1, h2, h3, h4, h5 {
+	text-transform: uppercase;
+}
+
+header a:hover {
+	color: #A0138E;
+}
+
+footer {
+	margin-top: 40px;
+	font-family: "Roboto Condensed";
+	background: black;
+	color: white;
+	min-height: 350px;
+}
+
+footer .footer-container {
+	max-width: 1366px;
+	margin: 0 auto;
+}
+
+footer .group {
+	display: inline-block;
+	width: 250px;
+	padding: 30px 10px 0 0;
+}
+
+/* Main content
+------------------------------ */
+.main-content {
+	text-align: center;
+}
+
+/* Home
+------------------------------ */
+.pizza {
+	margin: 0 auto;
+	font-size: 36px;
+	padding-top: 200px;
+	width: 450px;
+	height: 400px;
+	color: white;
+	text-align: center;
+	background: url(../img/pizza.webp);
+	background-size: contain;
+	background-repeat: no-repeat;
+	text-shadow: 0px 1px 1px black;
+}
+
+.pizza span {
+	font-family: Lobster;
+}
+
+.pizza h2 {
+	font-size: 150px;
+	margin: 0;
+	font-weight: bold;
+}
+
+/* About page
+------------------------------ */
+.about-text {
+	font-family: "Roboto Condensed";
+	background: white;
+	width: 600px;
+	padding: 25px;
+	margin: 40px auto;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+
+.about-text p {
+	margin: 0;
+}
+
+.about-text.big {
+	font-size: 26px;
+}
+
+/* Menu page
+------------------------------ */
+table {
+	width: 800px;
+	margin: 0 auto;
+	background: #FCEDBB;
+	padding: 10px;
+}
+
+table tbody {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+table img {
+	width: 330px;
+}
+
+/* Where page
+------------------------------ */
+.location {
+	font-size: 21px;
+	line-height: 26px;
+}
